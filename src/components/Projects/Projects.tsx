@@ -19,7 +19,7 @@ function Projects(){
         window.open('https://haydenclark-flappy-duck.netlify.app');
     }
     const visitFightingGame = () =>{
-        window.open('hayden-clark-fighting-game.netlify.app');
+        window.open('https://hayden-clark-fighting-game.netlify.app');
     }
     return(
         <>
