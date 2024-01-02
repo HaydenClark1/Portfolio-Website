@@ -16,10 +16,10 @@ function Projects(){
         navigate('/contact');
     }
     const visitFlappyDuck = () =>{
-        window.open('https://github.com/HaydenClark1/Flappy-Duck');
+        window.open('https://haydenclark-flappy-duck.netlify.app');
     }
     const visitFightingGame = () =>{
-        window.open('https://github.com/HaydenClark1/Fighting-Sim');
+        window.open('hayden-clark-fighting-game.netlify.app');
     }
     return(
         <>
