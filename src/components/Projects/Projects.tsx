@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import '../../style/Projects.css';
+import '../../style/projects.css';
 import '../../style/link.css';
 import FightingGame from '../../images/fighting-game-screenshot.png';
 import FlappyDuck from '../../images/Flapy-Duck-Screenshot.png';
