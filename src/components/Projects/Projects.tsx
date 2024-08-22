@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import '../../style/projects.css';
 import '../../style/link.css';
-import FightingGame from '../../images/fighting-game-screenshot.png';
+import Maze from '../../images/maze.png'
 import FlappyDuck from '../../images/Flapy-Duck-Screenshot.png';
 
 function Projects(){
@@ -30,7 +30,7 @@ function Projects(){
                 <button className="flappy-duck-button" onClick={visitFlappyDuck}>Visit</button>
                 </div>
                 <div className="maze-container">
-                    <img className="maze-picture" src={FightingGame} alt="maze-picture" />
+                    <img className="maze-picture" src={Maze} alt="maze-picture" />
                     <button className="maze-button" onClick={visitMaze}>Visit</button>
                 </div>
             </div>
