@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 function Homepage(){
    const navigate = useNavigate();
    const goResume = () =>{
-    window.open('https://1drv.ms/w/s!AtKoeaQlCzlQgtdaRXtyp3QlhUuY8w?e=Ve8Jpa', '_blank');
+    window.open('https://docs.google.com/document/d/1f6Tz2p2RxAw8totGZewyJMx891GWrsXi/edit', '_blank');
 }
    const goContact = () => {
     navigate('/contact');
