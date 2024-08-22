@@ -32,7 +32,7 @@ body {
 }
 
 .flappy-duck-picture,
-.fighting-game-picture {
+.maze-picture {
     position: absolute;
     bottom: 15%;
     width: 95%;
@@ -43,7 +43,7 @@ body {
 }
 
 .flappy-duck-button,
-.fighting-game-button {
+.maze-button {
     position: absolute;
     width: 50%;
     height: 10%;
@@ -59,12 +59,12 @@ body {
     z-index: 3;
 }
 .flappy-duck-button:hover,
-.fighting-game-button:hover{
+.maze-button:hover{
     background-color: rgb(50, 48, 48);
     color: white;
     border-color: black;
 }
-.fighting-game-container{
+.maze-container{
     position: absolute;
     top: 20vh;
     height: 70%;

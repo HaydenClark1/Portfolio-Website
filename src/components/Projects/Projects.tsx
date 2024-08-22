@@ -18,8 +18,8 @@ function Projects(){
     const visitFlappyDuck = () =>{
         window.open('https://haydenclark-flappy-duck.netlify.app');
     }
-    const visitFightingGame = () =>{
-        window.open('https://hayden-clark-fighting-game.netlify.app');
+    const visitMaze = () =>{
+        window.open('https://github.com/HaydenClark1/Maze');
     }
     return(
         <>
@@ -29,9 +29,9 @@ function Projects(){
                 <img className="flappy-duck-picture"  src={FlappyDuck} alt="Flappy Duck Picture"/>
                 <button className="flappy-duck-button" onClick={visitFlappyDuck}>Visit</button>
                 </div>
-                <div className="fighting-game-container">
-                    <img className="fighting-game-picture" src={FightingGame} alt="fighting-game-picture" />
-                    <button className="fighting-game-button" onClick={visitFightingGame}>Visit</button>
+                <div className="maze-container">
+                    <img className="maze-picture" src={FightingGame} alt="maze-picture" />
+                    <button className="maze-button" onClick={visitMaze}>Visit</button>
                 </div>
             </div>
             <div className="link-container">
