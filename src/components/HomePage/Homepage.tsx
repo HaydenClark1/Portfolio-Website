@@ -9,7 +9,7 @@ function Homepage(){
     window.open('https://docs.google.com/document/d/1f6Tz2p2RxAw8totGZewyJMx891GWrsXi/edit', '_blank');
 }
    const goContact = () => {
-    navigate('/contact');
+    navigate('/contact'); 
    }
    const goProjects = () =>{
     navigate('/projects');

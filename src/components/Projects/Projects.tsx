@@ -1,15 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
-<<<<<<< HEAD
-import '../../style/projects.css';
-import '../../style/link.css';
 import Maze from '../../images/maze.png'
-=======
 import '../../style/Projects.css';
 import '../../style/link.css';
-import FightingGame from '../../images/fighting-game-screenshot.png';
->>>>>>> c1fd5ab (Added files and changed portfolio website)
 import FlappyDuck from '../../images/Flapy-Duck-Screenshot.png';
-
+import Login from '../../images/login-picture.png';
 function Projects(){
     const navigate = useNavigate();
     const goHome = () =>{
@@ -22,17 +16,14 @@ function Projects(){
         navigate('/contact');
     }
     const visitFlappyDuck = () =>{
-<<<<<<< HEAD
         window.open('https://haydenclark-flappy-duck.netlify.app');
     }
     const visitMaze = () =>{
         window.open('https://github.com/HaydenClark1/Maze');
-=======
-        window.open('https://github.com/HaydenClark1/Flappy-Duck');
+
     }
-    const visitFightingGame = () =>{
-        window.open('https://github.com/HaydenClark1/Fighting-Sim');
->>>>>>> c1fd5ab (Added files and changed portfolio website)
+    const visitLogin = () =>{
+        window.open('https://loginsub.netlify.app/');
     }
     return(
         <>
@@ -42,15 +33,13 @@ function Projects(){
                 <img className="flappy-duck-picture"  src={FlappyDuck} alt="Flappy Duck Picture"/>
                 <button className="flappy-duck-button" onClick={visitFlappyDuck}>Visit</button>
                 </div>
-<<<<<<< HEAD
                 <div className="maze-container">
                     <img className="maze-picture" src={Maze} alt="maze-picture" />
                     <button className="maze-button" onClick={visitMaze}>Visit</button>
-=======
-                <div className="fighting-game-container">
-                    <img className="fighting-game-picture" src={FightingGame} alt="fighting-game-picture" />
-                    <button className="fighting-game-button" onClick={visitFightingGame}>Visit</button>
->>>>>>> c1fd5ab (Added files and changed portfolio website)
+                </div>
+                <div className="login-container">
+                    <img className = "login-picture" src={Login} alt="Login Picture" />
+                    <button className="login-button" onClick={visitLogin}></button>
                 </div>
             </div>
             <div className="link-container">
