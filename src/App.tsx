@@ -9,7 +9,11 @@ function App() {
   return <Routes>
   <Route path = '/' element = {<Homepage/>}/>
   <Route path = '/contact' element = {<Contact/>}/>
+<<<<<<< HEAD
   <Route path = '/projects' element = {<Projects/>}/>
+=======
+  <Route path = '/projects' element = {<Projects/>}/>4
+>>>>>>> c1fd5ab (Added files and changed portfolio website)
 </Routes>
 
 }

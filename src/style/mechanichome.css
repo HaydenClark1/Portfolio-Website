@@ -1,0 +1,48 @@
+.Heading{
+    text-align: center;
+    
+}
+.wrench{
+    height: 50px;
+    padding: 0;
+    position: absolute;
+    top: -2px;
+}
+.ScheduleADay{
+    position:absolute;
+    top: 50%;
+    right: 50%;
+}
+.menu-group{
+    padding-inline-start: 20px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    max-width: 200px;
+    border-width: 20px;
+    font-size: 15px;
+    top: 0;
+}
+.menu-group-item{
+    margin-bottom: 10px;
+}
+.menu-group-item.active{
+    color: blue;
+    background-color:#e2dddd;
+    text-decoration: underline;
+    
+}
+.mechanicPicture{
+    width: 75%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.mechanicBackGround{
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    right: 200px;
+    
+}

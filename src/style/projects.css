@@ -32,7 +32,11 @@ body {
 }
 
 .flappy-duck-picture,
+<<<<<<< HEAD
 .maze-picture {
+=======
+.fighting-game-picture {
+>>>>>>> c1fd5ab (Added files and changed portfolio website)
     position: absolute;
     bottom: 15%;
     width: 95%;
@@ -43,7 +47,11 @@ body {
 }
 
 .flappy-duck-button,
+<<<<<<< HEAD
 .maze-button {
+=======
+.fighting-game-button {
+>>>>>>> c1fd5ab (Added files and changed portfolio website)
     position: absolute;
     width: 50%;
     height: 10%;
@@ -59,12 +67,20 @@ body {
     z-index: 3;
 }
 .flappy-duck-button:hover,
+<<<<<<< HEAD
 .maze-button:hover{
+=======
+.fighting-game-button:hover{
+>>>>>>> c1fd5ab (Added files and changed portfolio website)
     background-color: rgb(50, 48, 48);
     color: white;
     border-color: black;
 }
+<<<<<<< HEAD
 .maze-container{
+=======
+.fighting-game-container{
+>>>>>>> c1fd5ab (Added files and changed portfolio website)
     position: absolute;
     top: 20vh;
     height: 70%;
