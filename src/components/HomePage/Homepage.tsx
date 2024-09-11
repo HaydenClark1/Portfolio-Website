@@ -39,8 +39,4 @@ function Homepage(){
     )
 }
 
-<<<<<<< HEAD
 export default Homepage;
-=======
-export default Homepage;
->>>>>>> c1fd5ab (Added files and changed portfolio website)
